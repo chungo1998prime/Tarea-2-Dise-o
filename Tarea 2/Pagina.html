@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Chungo's games</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+</head>
+<body>
+
+    <style>
+        body{
+            background-image: url('./img/fondo.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        form div{
+            margin: 1rem 0;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/game.png" alt="Logo" width="60" height="44" class="d-inline-block align-text-center"> Home
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.playstation.com/es-hn/">PlayStation Oficial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.xbox.com/es-ES/es-HN/">Xbox Oficial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.nintendo.com/switch/online/">Nintendo Switch Oficial</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+      </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container text-center">
+        <img src="img/banner.jpg" alt="Logo" width="700" height="180" class="d-inline-block align-text-center">
+    </div>
+
+    <br>
+
+    <div class="container text-center fs-2 fw-bold text-warning">
+        Nuestros mejores productos, disponibles en nuestra Página Oficial Chungo's games
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card container text-center" style="width: 18rem;">
+                    <img src="img/play.jpg" height="245" width="200" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">PlayStation 5</h5>
+                        <p class="card-text">Disfruta de la potencia de una CPU, una GPU y una SSD personalizadas con E/S integradas que redefinirán lo que una consola 
+                            PlayStation puede hacer.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.playstation.com/es-hn/ps5/" class="btn btn-warning fw-bold"><img src="./img/logoplay.png" height ="20" width="20" /> Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card container text-center" style="width: 18rem;">
+                    <img src="img/xbox.jpg" height="245" width="200" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Xbox Series X</h5>
+                        <p class="card-text">Los juegos creados con el kit de desarrollo de Xbox Series X|S ofrecen tiempos de carga considerablemente reducidos y efectos 
+                            visuales sorprendentes de hasta 120 FPS.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.xbox.com/es-ES/consoles/xbox-series-x?xr=shellnav" class="btn btn-warning fw-bold"><img src="./img/logoxbox.png" height ="20" width="20" /> Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card container text-center" style="width: 18rem;">
+                    <img src="img/nintendo.avif" height="200" width="200" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nintendo Switch - OLED Model White set</h5>
+                        <p class="card-text">Obtenga el sistema de juegos que le permite jugar los juegos que desea. Lleve la experiencia completa del sistema de juegos para el 
+                            hogar con usted al parque, en un avión, en un automóvil o al departamento.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.nintendo.com/store/products/nintendo-switch-oled-model-white-set/" class="btn btn-warning fw-bold"><img src="./img/logoswitch.png" height ="20" width="20" /> Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container text-center fs-2 fw-bold text-white">
+        Formulario de contacto
+    </div>
+
+    <div class="card container text-bg-secondary mb-3" style="width: 40rem;">
+        <form action="#">
+
+            <div>
+                <label for="nombre">Ingrese su nombre: </label>
+                <input type="text" placeholder="Ingrese su nombre" 
+                value="" 
+                name="nombre"
+                id="nombre"
+                class=""/>
+
+                <input type="text" placeholder="Ingrese su apellido" 
+                value="" 
+                name="apellido"
+                id="apellido" 
+                class=""/>            
+            </div>
+
+            <div>   
+                <label for="correo">Ingrese su correo: </label>
+                <input type="email" placeholder="Ingrese su correo electrónico" 
+                value="" 
+                name="correo"
+                id="correo" 
+                class=""/>
+            </div>
+
+            <div>   
+                <label for="tel">Ingrese su numero de teléfono: </label>
+                <input type="tel" placeholder="Ingrese su número de teléfono" 
+                value="" 
+                name="tel"
+                id="tel" 
+                class=""/>
+            </div>
+
+            <div>   
+                <label for="dire">Ingrese su dirección: </label>
+                <input type="text" placeholder="Ingrese su dirección de envío" 
+                value="" 
+                name="dire"
+                id="dire" 
+                class=""/>
+            </div>
+
+            <div>
+    
+                <label for="dire">Ingrese su causa del mensaje: </label>
+                <textarea type="text" placeholder="Mensaje..." 
+                value="" 
+                rows="15"
+                cols="50"
+                name="dire"
+                id="dire" 
+                class=""></textarea>
+    
+            </div>
+
+            <div class="container text-center">
+                <button type="button" class="btn btn-outline-dark">Enviar Formulario</button>
+            </div>
+    
+        </form>
+    </div>
+
+    <footer>
+        <div class="card container text-center border-secondary mb-3" style="max-width: 100rem;">
+            <div class="card-header"><img src="./img/game.png" height ="90" width="200" /></div>
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Boulevard UNAH-VS A la par de mall de galerias del valle</h5>
+                <h5>De lunes a sábado de 9 am a 8 pm</h5>
+                <h5>Domingos de 11 am a 7 pm</h5>
+                <h5>Tel. 9749-6493 / 2217-0044</h5>
+              <p class="card-text"><a href="https://www.facebook.com/Gamestationhonduras"><img src="./img/facebook.png" height ="50" width="50" /></a>
+                <a href="mailto:gstgu@hotmail.com"><img src="./img/correo.png" height ="50" width="50" /></a></p>
+            </div>
+    </footer>
+</body>
+</html>
